@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProductDetails = () => {
   return (
-    <div>
+    <div className="res-container flex flex-wrap">
       ProductDetails
     </div>
   )
