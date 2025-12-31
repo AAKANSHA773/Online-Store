@@ -1,5 +1,6 @@
+import ProductList from "./pages/ProductList";
 
-import ProductList from './components/ProductList';
+
 
 function App() {
   return (
