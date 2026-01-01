@@ -48,6 +48,12 @@ const ProductList = () => {
             <option value="desc">High → Low</option>
           </select>
         </div>
+        <Link
+          to="/favorites"
+          className="rounded-md  px-4 py-2 text-sm font-medium text-red-600 hover:bg-red-50"
+        >
+          ❤️ 
+        </Link>
       </div>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         {FliterProducts.map((product) => (
