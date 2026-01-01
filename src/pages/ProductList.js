@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useProducts from "../hooks/useProduct";
 
 const ProductList = () => {
@@ -50,7 +51,8 @@ const ProductList = () => {
       </div>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         {FliterProducts.map((product) => (
-          <div
+          <Link
+            to={`/product/${product.id}`}
             key={product.id}
             className="rounded-2xl border border-gray-200 bg-gray-100 p-4 shadow-sm transition hover:shadow-md hover:scale-[1.02]"
           >
@@ -74,7 +76,7 @@ const ProductList = () => {
             <p className="mt-2 text-base font-bold text-gray-800">
               ₹{product.price}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
     </main>

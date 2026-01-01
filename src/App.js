@@ -1,11 +1,7 @@
-import ProductList from "./pages/ProductList";
-
-
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <ProductList/>
-  );
+  return <Body />;
 }
 
 export default App;
