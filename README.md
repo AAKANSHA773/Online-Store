@@ -32,7 +32,7 @@ A modern product dashboard built with **React**, featuring product listing, sear
 ### Clone the Repository
 
 git  clone AAKANSHA773/Online-Store
-cd <Online-Store>
+cd Online-Store
 
 ### Install Dependencies
 npm install
@@ -52,14 +52,15 @@ npm run test -- --coverage
 A coverage report will be generated inside:
 coverage/
 
+
 ## Testing Strategy
-Unit Tests
+ # Unit Tests
 
 Redux slices (favorites add/remove logic)
 
 Individual UI components
 
-Integration Tests
+# Integration Tests
 
 Search functionality
 
