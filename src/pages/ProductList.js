@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import useProducts from "../hooks/useProduct";
+import { LOGO } from "../utils/constant";
 
 const ProductList = () => {
   const {
@@ -15,8 +16,11 @@ const ProductList = () => {
 
   return (
     <main className="mx-auto max-w-7xl p-6">
-      <div className="mb-8 flex flex-col gap-4 rounded-xl border bg-white p-4 shadow-sm md:flex-row md:items-center md:justify-between">
-        <h2 className="text-xl font-semibold text-gray-900">Products</h2>
+      <div className="mb-8 flex flex-col gap-4 rounded-xl border bg-white p-2 shadow-sm md:flex-row md:items-center md:justify-between">
+        <div className="mx-auto h-16 w-16 overflow-hidden rounded-md md:mx-0 ">
+          <img src={LOGO} alt="logo" className=" ml-1  h-full w-full object-cover object-center scale-100 " />
+        </div>
+
         <input
           type="text"
           placeholder="Search Product Here..."
@@ -50,9 +54,9 @@ const ProductList = () => {
         </div>
         <Link
           to="/favorites"
-          className="rounded-md  px-4 py-2 text-sm font-medium text-red-600 hover:bg-red-50"
+          className="rounded-md  px-8 py-2  font-medium text-red-600 hover:bg-red-50"
         >
-          ❤️ 
+          ❤️
         </Link>
       </div>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">

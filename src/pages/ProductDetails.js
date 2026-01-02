@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 import { addFavorite } from "../utils/favoritesSlice";
-import ShimmerCard from "../components/ShimmerUi";
 import ShimmerUI from "../components/ShimmerUi";
 
 const ProductDetail = () => {

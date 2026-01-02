@@ -1,0 +1,1 @@
+export const LOGO ="https://img.freepik.com/premium-vector/logo-online-shopping-is-displayed-white-background_936990-637.jpg?semt=ais_hybrid&w=740&q=80https://img.freepik.com/premium-vector/logo-online-shopping-is-displayed-white-background_936990-637.jpg?semt=ais_hybrid&w=740&q=80"
